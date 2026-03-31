@@ -68,11 +68,11 @@ export function Header() {
 
           {/* Contact Button - Desktop */}
           <a
-            href="tel:+918250080395"
+            href="tel:+917908439041"
             className="hidden lg:flex items-center gap-2 bg-amber-900 text-white px-6 py-3 rounded-lg hover:bg-amber-800 transition-colors"
           >
             <Phone className="w-4 h-4" />
-            <span className="font-medium">+91 8250080395</span>
+            <span className="font-medium">+91 7908439041</span>
           </a>
 
           {/* Mobile Menu Button */}
@@ -102,11 +102,11 @@ export function Header() {
               </Link>
             ))}
             <a
-              href="tel:+919999999999"
+              href="tel:+917908439041"
               className="flex items-center gap-2 bg-amber-900 text-white px-4 py-3 mt-4 rounded-lg"
             >
               <Phone className="w-4 h-4" />
-              <span className="font-medium">+91 99999 99999</span>
+              <span className="font-medium">+91 79084 39041</span>
             </a>
           </nav>
         )}
