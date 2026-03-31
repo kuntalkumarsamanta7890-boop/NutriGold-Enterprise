@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://yourusername.github.io/NutriGold-Enterprise",
+  "homepage": "https://kuntalkumarsamanta7890-boop.github.io/NutriGold-Enterprise",
   "scripts": {
     "build": "vite build",
     "predeploy": "npm run build",
