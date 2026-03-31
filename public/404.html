@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - NutriGold Enterprise</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #F5F5DC 0%, #fff 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 120px;
+            color: #8B4513;
+            margin-bottom: 20px;
+            line-height: 1;
+        }
+        h2 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #228B22;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #1a6b1a;
+        }
+    </style>
+    <script type="text/javascript">
+        // Redirect to the base path for SPA routing
+        var basePath = '/NutriGold-Enterprise/';
+        var redirect = window.location.pathname;
+        
+        if (redirect !== basePath && redirect.indexOf(basePath) === 0) {
+            var redirectPath = redirect.substring(basePath.length);
+            window.location.replace(basePath + '#' + redirectPath + window.location.search);
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>404</h1>
+        <h2>Page Not Found</h2>
+        <p>Sorry, the page you're looking for doesn't exist or has been moved.</p>
+        <a href="/NutriGold-Enterprise/" class="btn">Return to Home</a>
+    </div>
+</body>
+</html>
